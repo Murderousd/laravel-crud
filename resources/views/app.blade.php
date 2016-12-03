@@ -18,7 +18,8 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+
+  	<div class="container">
       @yield('content')
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
