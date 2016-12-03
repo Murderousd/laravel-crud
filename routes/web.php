@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
 Route::group(['middleware' => ['web']], function() {
   Route::resource('blog','BlogController');
   Route::post ( '/editItem', 'BlogController@editItem' );
